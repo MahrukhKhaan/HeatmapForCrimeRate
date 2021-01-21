@@ -1,4 +1,12 @@
 # HeatmapForCrimeRate
 Heat Map generation for Crime Rate in an area
 
-In this project we will analyze crime data of an area as we all know that the crime rate is increasing in many regions. In today’s world with such higher crime rate and brutal crime happening, there must be some protection against this crime. Here we introduce a system which will help to reduce the crime rate through the analysis of crime data by generating a heat map. The heat map will indicate the rate and timings of specific crimes happening in an area so that effective measures can be taken to prevent these crimes. Crime data will be stored in the database. Data mining algorithm will extract information and patterns from database. Admin will enter crime details into the system which is required for analysis. This project will help us in exploring various techniques and methods related to data science.
+The area considered was Karachi; crime rate has been visualized for Karachi's districts and subdivisions. This project implements TimeSliderChoropleth in Python using Folium.
+
+1)For district-wise visualization:
+DATASET: Crime data was taken from the official site of Sindh Police, https://www.sindhpolice.gov.pk/annoucements/henious_crime_reports.html .
+SHAPEFILE: GeoJSON file was available at https://github.com/deldersveld/topojson/tree/master/countries/pakistan
+
+2)For town-wise visualization:
+DATASET: Dummy(Random) data was used as actual data was unavailable.
+SHAPEFILE: GeoJSON file was available at https://github.com/sabman/karachicrime/tree/master/db/data
